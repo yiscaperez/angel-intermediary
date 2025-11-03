@@ -163,7 +163,7 @@ export default async function HomePage({ searchParams }: PageProps) {
       </section>
 
      
-     {/* Resources / Checklist  */} 
+     {/* Resources / Checklist  
       <section id="resources" className="border-b">
         <div className="mx-auto max-w-6xl px-4 py-16 md:py-20">
           <h2 className="text-2xl font-semibold text-indigo-900">Resources</h2>
@@ -179,8 +179,8 @@ export default async function HomePage({ searchParams }: PageProps) {
           </ul>
         </div>
       </section>
-    
-      
+      *
+      */} 
 
 
       {/* Contact */}
