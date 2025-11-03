@@ -32,7 +32,7 @@ export async function POST(req: Request) {
 
     await transporter.sendMail({
       from: user,
-      to: "juliebenizri@gmail.com",
+      to: "angelintermediary@gmail.com",
       subject: `New Callback Request from ${name || email || "Website visitor"}`,
       text: `Name: ${name || "N/A"}
 Email: ${email || "N/A"}
