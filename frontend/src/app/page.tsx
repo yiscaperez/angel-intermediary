@@ -155,9 +155,9 @@ export default async function HomePage({ searchParams }: PageProps) {
         <div className="mx-auto max-w-6xl px-4 py-16 md:py-20">
           <h2 className="text-2xl font-semibold text-indigo-900">How we work (pilot first, then scale)</h2>
           <ol className="mt-6 space-y-4 text-gray-700">
-            <li><span className="font-medium">1) Discovery.</span> Confirm award status, timelines, and immediate needs.</li>
-            <li><span className="font-medium">2) Utilization plan.</span> Align needs to eligible items; outline documentation and claim schedule.</li>
-            <li><span className="font-medium">3) Execution & claim.</span> Procurement support, compliance files, and submission until reimbursement.</li>
+            (<li><span className="font-medium">1) Discovery.</span> Confirm award status, timelines, and immediate needs.</li>
+            (<li><span className="font-medium">2) Utilization plan.</span> Align needs to eligible items; outline documentation and claim schedule.</li>
+            (<li><span className="font-medium">3) Execution & claim.</span> Procurement support, compliance files, and submission until reimbursement.</li>
           </ol>
         </div>
       </section>
